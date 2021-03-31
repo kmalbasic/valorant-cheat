@@ -1,18 +1,12 @@
 #pragma once
-
-
 #include <conio.h>
 #include <stdlib.h>
 #include "helper_fn.h"
 
-
 #define PROCESS_NAME L"VALORANT  " 
 
-
-
-
 int start() {
-    outputf("VLTBT 1.0.1.1 - malbasic - 0 at 0 \n", 0);
+    outputf("VLTBT 1.0.1.1 - obscxrxd - 0 at 0 \n", 0);
     outputf("[*] checking for ghub driver...\n", 0);
     Sleep(1000);
     int toleration = 50;
@@ -29,11 +23,11 @@ int start() {
         outputf("[+] ghub driver is present\n", 0);
     }
     Sleep(1000);
-    outputf("[*] getting display capture...\n", 0);
+    outputf("[*] getting display capture...\n", 0); // memes 
     Sleep(1000);
     outputf("[+] display capture module loaded\n", 0);
-    load_vlp(preset);
-    data_vlp = preset;
+
+
 }
 
 void additional() {

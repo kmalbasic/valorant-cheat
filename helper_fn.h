@@ -13,6 +13,7 @@ void toggle_check(char value){
             r = FALSE;
         }
 }
+
 void textcolor(int color)
 {
     static int __BACKGROUND;
@@ -27,7 +28,7 @@ void textcolor(int color)
         color + (__BACKGROUND << 4));
 }
 
-void outputf(char* s, int vlp)
+void outputf(char* s, int spec)
 {
     int i = 0;
     while (*(s + i) != '\0')
@@ -47,32 +48,32 @@ void outputf(char* s, int vlp)
             textcolor(14);
             _cprintf("%c", *(s + i));
         }
-        else if (*(s + i) == 'v' && vlp == 1)
+        else if (*(s + i) == 'v' && spec == 1)
         {
             textcolor(2);
             _cprintf("%c", *(s + i));
         }
-        else if (*(s + i) == 'l' && vlp == 1)
+        else if (*(s + i) == 'l' && spec == 1)
         {
             textcolor(2);
             _cprintf("%c", *(s + i));
         }
-        else if (*(s + i) == 'p' && vlp == 1)
+        else if (*(s + i) == 'p' && spec == 1)
         {
             textcolor(2);
             _cprintf("%c", *(s + i));
         }
-        else if (*(s + i) == 'v' && vlp == 2)
+        else if (*(s + i) == 'v' && spec == 2)
         {
             textcolor(14);
             _cprintf("%c", *(s + i));
         }
-        else if (*(s + i) == 'l' && vlp == 2)
+        else if (*(s + i) == 'l' && spec == 2)
         {
             textcolor(14);
             _cprintf("%c", *(s + i));
         }
-        else if (*(s + i) == 'p' && vlp == 2)
+        else if (*(s + i) == 'p' && spec == 2)
         {
             textcolor(14);
             _cprintf("%c", *(s + i));
