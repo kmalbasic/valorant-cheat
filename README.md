@@ -14,6 +14,7 @@ and according to the feature that is enabled, does what it's supposed to do.
 This cheat requires Logitech GHUB driver to be installed on the machine that is
 running the game/cheat. You can download it for free at https://www.logitechg.com/en-us/innovation/g-hub.html.
 You don't need a Logitech mouse, even though it can be buggy on other mice.
+_credits to @ekknod and his Logitech CVE project - **logitech-cve repo**: https://github.com/ekknod/logitech-cve_
 
 # detection rate
 I've been occasionally using this cheat since the beta on a test account and on my main (got 2 keys, lucky :3)
