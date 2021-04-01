@@ -20,4 +20,4 @@ input managing than my private version since..
 Since this project will be released to the public soon enough (it's released yay), you must know that there are certain risks of a 
 Riot developer stumbling upon this. I am not responsible for any bans/penalties you receive on your accounts.
 Updating this cheat isn't hard, if you have more than 2 braincells you will be able to use it for a loooong time.
-My name on VALORANT is **malbasic #CHEAT**. (EU)
+My name on VALORANT is -------. (EU)
